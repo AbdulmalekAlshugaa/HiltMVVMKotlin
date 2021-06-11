@@ -1,5 +1,8 @@
 package com.example.hiltpractice.main
 
-interface MainRepository {
+import okhttp3.ResponseBody
 
+interface MainRepository {
+//
+    suspend fun getToDoList () : ResponseBody
 }
